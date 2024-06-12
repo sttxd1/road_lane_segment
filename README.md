@@ -18,7 +18,7 @@ python train.py --prefix resnet38_k_weight_0.1 --model resnet38_k --weight 0.1
 ```
 
 ### Evaluation
-The `inference.ipynb` file is used to check the performance of trained models. The `eval_loss.ipynb` is used to calculate the MSE loss, including the soft MSE loss at testing stage.
+The `inference.ipynb` file is used to check the performance of trained models. The `eval_loss.ipynb` is used to calculate the evaluation loss, including the soft evaluation loss at testing stage.
 
 ### References
 https://github.com/Wizaron/instance-segmentation-pytorch
